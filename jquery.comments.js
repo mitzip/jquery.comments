@@ -39,8 +39,10 @@
                 return false;
             }
         }).filter(function() {
+            // if regular expression is provided, filter comments based on it
             if (regexFilter)
                 return regexFilter.test(this.nodeValue);
+            // else return all comments found
             else
                 return true;
         });
