@@ -2,10 +2,11 @@
  * Author: mitzip
  * More info: mitzip.com
  * License: Freely published into Public Domain
+ * Requires: jQuery 1.2+
  *
  */
 (function($) {
-	$.fn.comments = function(regexFilter) {
+    $.fn.comments = function(regexFilter) {
 		// for dumb non-compliant browsers, like Microsoft Internet Explorer
 		Node = Node || {
 		  COMMENT_NODE: 8
