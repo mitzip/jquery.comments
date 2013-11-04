@@ -24,3 +24,12 @@ Get the string value of the first regular expression matching body tag descendan
 ```javascript
 $('body').comments(/\d+/).get(0).nodeValue;
 ```
+
+## License
+Freely published into the Public Domain (see LICENSE file for more info)
+
+## Author
+mitzip http://mitzip.com
+
+## Contributing
+Pull requests are welcome!
