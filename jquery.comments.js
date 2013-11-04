@@ -1,7 +1,7 @@
 /*
  * Author: mitzip
  * More info: mitzip.com
- * License: Freely published into Public Domain
+ * License: Public Domain (http://unlicense.org)
  * Requires: jQuery 1.2+
  *
  */
