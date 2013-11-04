@@ -12,10 +12,15 @@ $('*').comments();
 
 Grab all the comments who are descendants of the body tag
 ```javascript
-$('body').comments()
+$('body').comments();
 ```
 
 Grab all comments who are descendants of the body tag which can match a regular expression
 ```javascript
 $('body').comments(/\d+/);
+```
+
+Get the string value of the first regular expression matching body tag descendant comment
+```javascript
+$('body').comments(/\d+/).get(0).nodeValue;
 ```
