@@ -1,3 +1,9 @@
+/*
+ * Author: mitzip
+ * More info: mitzip.com
+ * License: Freely published into Public Domain
+ *
+ */
 (function($) {
 	$.fn.comments = function(regexFilter) {
 		// for dumb non-compliant browsers, like Microsoft Internet Explorer
